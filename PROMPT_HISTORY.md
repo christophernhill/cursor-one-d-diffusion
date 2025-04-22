@@ -117,10 +117,47 @@ Great - can you create the commands to make this code suitable for adding to the
 - Added and committed all files
 - Pushed to GitHub
 
+## Prompt 10: Version Tagging
+**Exact Prompt**:
+```
+can you tag as v0.1 using semantic tagging
+```
+
+**Response**: Created and pushed semantic version tag:
+- Created v0.1.0 tag
+- Added descriptive message
+- Pushed tag to remote repository
+- Followed semantic versioning conventions
+
+## Prompt 11: Dirichlet Boundary Conditions
+**Exact Prompt**:
+```
+can you try to modify the code to use dirichlet boundary conditions. The upper boundary conditions should have theta set to 10 and the lower boundary condition should have theta set to -10.
+```
+
+**Response**: Modified code to implement Dirichlet boundary conditions:
+- Added boundary condition parameters to constructor
+- Updated boundary condition implementation
+- Modified second derivative calculation
+- Added explicit boundary value enforcement
+- Updated test script to use new boundary conditions
+
+## Prompt 12: Plot Orientation
+**Exact Prompt**:
+```
+can you change the plotting so that the y-axis is reversed to have 0 at the top and 100 at the bottom of the image
+```
+
+**Response**: Modified plotting code to:
+- Reverse y-axis orientation
+- Place z=0 at top of plot
+- Place z=100 at bottom of plot
+- Maintain all other visualization features
+
 ## Current State
 The code now consists of:
-1. `diffusion_solver.py`: Core solver with JAX acceleration
-2. `test_diffusion.py`: Test driver with visualization
+1. `diffusion_solver.py`: Core solver with JAX acceleration and Dirichlet boundary conditions
+2. `test_diffusion.py`: Test driver with visualization and reversed y-axis
 3. `README.md`: Project documentation
 4. `PROMPT_HISTORY.md`: Development history
 5. `.gitignore`: Git configuration
@@ -128,5 +165,6 @@ The code now consists of:
    - GPU/CPU acceleration
    - Memory-efficient simulation
    - Stability control
-   - Visualization
+   - Visualization with reversed y-axis
+   - Dirichlet boundary conditions
    - Conservation verification 
