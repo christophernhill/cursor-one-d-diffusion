@@ -154,6 +154,42 @@ can you change the plotting so that the y-axis is reversed to have 0 at the top 
 - Place z=100 at bottom of plot
 - Maintain all other visualization features
 
+## Prompt 9: Europa Surface Flux Calculation
+**Exact Prompt**:
+```
+I would like to create a file named BACKGROUND_NOTES.md, specifically asking for a section titled "Europa Surface Flux Estimation" that includes a calculation related to Europa's surface flux.
+```
+
+**Response**: Created `BACKGROUND_NOTES.md` with:
+- Stefan-Boltzmann law calculations
+- Surface flux estimation for -150°C
+- Contextual comparisons with other temperatures
+- Explanation of significance
+
+## Prompt 10: Galileo Temperature Data
+**Exact Prompt**:
+```
+Can you add a link to an image showing sensor measurements of Europa's surface temperature from the Galileo spacecraft in 2019.
+```
+
+**Response**: Updated `BACKGROUND_NOTES.md` to include:
+- Galileo spacecraft PPR instrument measurements
+- Temperature variations across Europa's surface
+- Link to NASA temperature maps
+- Surface albedo effects explanation
+
+## Prompt 11: Europa Geometry Calculations
+**Exact Prompt**:
+```
+Can you add another section to BACKGROUND_NOTES.md called "Europa Geometry". In that can you compute the surface area of three different spheres. Sphere1 has radius 1560 kilometers. Sphere2 has a radius 100 kilometers less than Sphere1 and Sphere3 has a radius 100 kilometers less than Sphere2.
+```
+
+**Response**: Added to `BACKGROUND_NOTES.md`:
+- Surface area calculations for three spheres
+- Formula and methodology explanation
+- Detailed calculations for each sphere
+- Area differences between spheres
+
 ## Current State
 The code now consists of:
 1. `diffusion_solver.py`: Core solver with JAX acceleration and Dirichlet boundary conditions
